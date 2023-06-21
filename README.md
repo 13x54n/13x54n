@@ -1,10 +1,17 @@
-- 👋 Hi, I’m @13x54n
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+👋 Hello! I'm Laxman Rai. I'm a Full Stack JS & EVM-based Blockchain dev.
 
-<!---
-13x54n/13x54n is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 📚 Current interests:
+- Data Science & Analysis
+- Calculus
+- Re-exploring the robustness of Java
+- LLM integration to JavaScript
+  
+### 📫 How to reach me:
+Email: laxman.rai.07.26@gmail.com
+Website: [13x.hashnode.dev](https://13x.hashnode.dev)
+
+### 🎸 Interests:
+I enjoy swimming & exploring different places 🌠
+On weekends you can find me going to dev meetups or playing guitar 🎸
+
+👋 That's all for now, thanks for stopping by! 👋
