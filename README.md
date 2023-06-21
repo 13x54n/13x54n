@@ -11,7 +11,7 @@ Email: laxman.rai.07.26@gmail.com
 Website: [13x.hashnode.dev](https://13x.hashnode.dev)
 
 ### 🎸 Interests:
-I enjoy swimming & exploring different places 🌠
-On weekends you can find me going to dev meetups or playing guitar 🎸
+- I enjoy swimming & exploring different places 🌠
+- On weekends you can find me going to dev meetups or playing guitar 🎸
 
 👋 That's all for now, thanks for stopping by! 👋
