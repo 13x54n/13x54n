@@ -7,7 +7,7 @@
 - LLM integration to JavaScript
   
 ### 📫 How to reach me:
-Email: laxman.rai.07.26@gmail.com
+Email: 13x54r@gmail.com
 Website: [13x.hashnode.dev](https://13x.hashnode.dev)
 
 ### 🎸 Interests:
