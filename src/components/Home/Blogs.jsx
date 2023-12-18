@@ -64,7 +64,6 @@ export default function Blogs() {
                 key={index}
                 className="flex max-w-xl flex-col items-start justify-between"
                 data-aos="fade-up"
-                data-aos-delay={index * 100}
               >
                 <div className="group relative">
                   <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
@@ -76,23 +75,6 @@ export default function Blogs() {
                   <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                     {post.brief}
                   </p>
-                </div>
-                <div className="relative mt-5 flex items-center gap-x-4">
-                  <img
-                    src="https://ik.imagekit.io/13x54r/lexysImage-1702270067083-31292941_4NLcUu3f2.jpeg?updatedAt=1702270067522"
-                    alt=""
-                    draggable="false"
-                    className="h-10 w-10 rounded-full bg-gray-50"
-                  />
-                  <div className="text-sm leading-6">
-                    <p className="font-semibold text-gray-900">
-                      <a href="https://13x54n.com/" target="_blank">
-                        <span className="absolute inset-0" />
-                        Laxman Rai
-                      </a>
-                    </p>
-                    <p className="text-gray-600">Writer & Developer</p>
-                  </div>
                 </div>
               </article>
             ))}

@@ -1,8 +1,12 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import {
+  CloudArrowUpIcon,
+  LockClosedIcon,
+  ServerIcon,
+} from "@heroicons/react/20/solid";
 
 export default function Experience() {
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div className="relative isolate overflow-hidden bg-white px-6 py-14 sm:py-22 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -26,18 +30,31 @@ export default function Experience() {
               strokeWidth={0}
             />
           </svg>
-          <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+          <rect
+            width="100%"
+            height="100%"
+            strokeWidth={0}
+            fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
+          />
         </svg>
       </div>
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+              <p className="text-base font-semibold leading-7 text-indigo-600">
+                Experience Matters
+              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Journey Traction
+              </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                eget aliquam. Quisque id at vitae feugiat egestas.
+                Changing just the{" "}
+                <i className="bg-[#cbedd8] px-1.5 rounded pb-1">
+                  background-color
+                </i>{" "}
+                of website to full-stack web and blockchain developer was quite
+                an experience with some rollercoaster journey.
               </p>
             </div>
           </div>
@@ -45,7 +62,7 @@ export default function Experience() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src="https://ik.imagekit.io/13x54r/Screenshot%202023-12-18%20154431.png?updatedAt=1702932308610"
             alt=""
           />
         </div>
@@ -53,45 +70,86 @@ export default function Experience() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                semper sed amet vitae sed turpis id.
+                I was priviledged to have an access to Web Design & Development,
+                Java, and MERN Stack course. But I'd introduce myself as
+                self-taught developer since I got to learn many things after
+                real-world projects.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">
+                      Full Stack Web & Mobile Developer - iSendMoney
+                    </strong>
+                    <br />
+                    <i>November 2022 - Present</i>
+                    <br />
+                    Created installable, powerful yet lightweight PWA for
+                    iSendMoney’s web version application. Handled Serverless
+                    MongoDB databases with additional aggregations for BI tools
+                    for iSendMoney’s internal tools integrated with D3.js.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">
+                      Full Stack Blockchain Developer - Playpoint
+                    </strong>
+                    <br />
+                    <i>November 2020 - October 2023</i>
+                    <br />
+                    Developed frontend interfaces and dApps using React.js and
+                    Next.js to interact with the blockchain through Ethers.js,
+                    decentralized wallets integrations, and smart contracts.
+                    Integrated decentralized storage solutions like IPFS or
+                    Swarm to store files, images, or other data in a distributed
+                    manner and implement secure and efficient data retrieval
+                    mechanisms.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">
+                      Junior MERN Stack Developer - School of IT
+                    </strong>
+                    <br />
+                    <i>September 2018 - October 2020</i>
+                    <br />
+                    Developed server-side logic using Node.js and Express.js to
+                    handle HTTP requests, API integrations, and database
+                    interactions. Implemented RESTful APIs and ensure efficient
+                    data flow between the frontend and backend components. Used
+                    version control systems like Git and Bitbucket to manage
+                    code repositories and collaborate effectively with team
+                    members.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span>
+                    <strong className="font-semibold text-gray-900">
+                      Freelance Blockchain Developer - MrWebFinance
+                    </strong>
+                    <br />
+                    <i>May 2021 - August 2021</i>
+                    <br />
+                    Designed, developed, and deployed ERC20 tokens on the
+                    blockchain using Solidity named AMA. Designed and
+                    implemented the tokenomics of the ERC20 token, including
+                    reward mechanisms for staking. Created a staking platform
+                    that allows token holders to lock their tokens for a
+                    specified period in exchange for rewards or benefits.
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                No server? No problem.
+              </h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
+                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
+                consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
+                vitae interdum mauris enim, consequat vulputate nibh. Maecenas
+                pellentesque id sed tellus mauris, ultrices mauris. Tincidunt
+                enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
                 turpis ipsum eu a sed convallis diam.
               </p>
             </div>
@@ -99,5 +157,5 @@ export default function Experience() {
         </div>
       </div>
     </div>
-  )
+  );
 }
