@@ -28,10 +28,10 @@ export default function Navbar() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Blog
+            Projects
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Projects
+            Case Studies
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Recognitions
@@ -74,13 +74,13 @@ export default function Navbar() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Blog
+                  Projects
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Projects
+                  Case Studies
                 </a>
                 <a
                   href="#"

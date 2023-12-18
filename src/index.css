@@ -34,10 +34,10 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #8484ff;
+  background: #37373a;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #8484ffe0;
+  background: #37373adb;
 }
