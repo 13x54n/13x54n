@@ -42,7 +42,7 @@ export default function Experience() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Journey Traction
               </h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">
+              <p data-aos="fade-up" className="mt-6 text-xl leading-8 text-gray-700">
                 Changing just the{" "}
                 <i className="bg-[#cbedd8] px-1.5 rounded pb-1">
                   background-color
@@ -63,7 +63,7 @@ export default function Experience() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p>
+              <p data-aos="fade-up">
                 I was priviledged to have an access to Web Design & Development,
                 Java, and MERN Stack course. But I'd introduce myself as
                 self-taught developer since I got to learn many things after
@@ -71,7 +71,7 @@ export default function Experience() {
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <span>
+                  <span data-aos="fade-up">
                     <strong className="font-semibold text-gray-900">
                       Full Stack Web & Mobile Developer - iSendMoney
                     </strong>
@@ -85,7 +85,7 @@ export default function Experience() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <span>
+                  <span data-aos="fade-up">
                     <strong className="font-semibold text-gray-900">
                       Full Stack Blockchain Developer - Playpoint
                     </strong>
@@ -102,7 +102,7 @@ export default function Experience() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <span>
+                  <span data-aos="fade-up">
                     <strong className="font-semibold text-gray-900">
                       Junior MERN Stack Developer - School of IT
                     </strong>
@@ -119,7 +119,7 @@ export default function Experience() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <span>
+                  <span data-aos="fade-up">
                     <strong className="font-semibold text-gray-900">
                       Freelance Blockchain Developer - MrWebFinance
                     </strong>
@@ -135,10 +135,10 @@ export default function Experience() {
                   </span>
                 </li>
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900" data-aos="fade-up">
                 Open for Collaborations & Hire.
               </h2>
-              <p className="mt-6">
+              <p className="mt-6" data-aos="fade-up">
                 I'd love to be the part of your amazing project, startup and I'm
                 open for hire as well. Mail me at{" "}
                 <a

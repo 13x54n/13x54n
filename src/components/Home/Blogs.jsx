@@ -40,7 +40,6 @@ export default function Blogs() {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     gql(BLOGS_QUERY, { page: 0 }).then((res) => {
-      console.log(res.data.user.publication.posts);
       setBlogs(res?.data.user.publication.posts.splice(0, 3));
     });
   }, []);
