@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "../pages/Home";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Layout = (props) => {
   const { component: ChildComponent } = props;
@@ -10,6 +11,7 @@ const Layout = (props) => {
     <React.Fragment>
       <Navbar />
       <ChildComponent />
+      <Footer/>
     </React.Fragment>
   );
 };

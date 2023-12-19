@@ -1,9 +1,3 @@
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
-
 export default function Experience() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-14 sm:py-22 lg:overflow-visible lg:px-0">
@@ -62,7 +56,7 @@ export default function Experience() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            src="https://ik.imagekit.io/13x54r/Screenshot%202023-12-18%20154431.png?updatedAt=1702932308610"
+            src="https://ik.imagekit.io/13x54r/Screenshot%202023-12-18%20204146.png?updatedAt=1702950147917"
             alt=""
           />
         </div>
@@ -142,15 +136,18 @@ export default function Experience() {
                 </li>
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                No server? No problem.
+                Open for Collaborations & Hire.
               </h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-                vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-                pellentesque id sed tellus mauris, ultrices mauris. Tincidunt
-                enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                I'd love to be the part of your amazing project, startup and I'm
+                open for hire as well. Mail me at{" "}
+                <a
+                  className="italic font-medium text-indigo-600"
+                  href="mailto:13x54r@gmail.com"
+                >
+                  13x54r@gmail.com
+                </a>
+                .
               </p>
             </div>
           </div>
